@@ -57,6 +57,7 @@ public class BaseClass_SI {
 	public void classTeardown() {
 		excelutility.closeExcel();
 		cp.profileclick();
+		cp.quit();
 		
 	}
 	}
